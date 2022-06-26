@@ -1,0 +1,265 @@
+img{
+    width: 40px;
+    height: 40px;
+}
+.bannerimg{
+  width: 800px;
+  height: 400px;
+  padding-left: 20%;
+}
+.para{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+  width: 50%;
+  color: rgba(94, 93, 93, 0.719);
+  margin: auto;
+  text-align: center;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+.button-29 {
+
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.des{
+  padding-top: 20px;
+  font-size: 13px;
+
+  color: rgb(105, 97, 97);
+}
+.imgqqq{
+  float: right;
+  width: 30%;
+}
+.hd1{
+    margin-left: 50px;
+    font-size: 50px;
+    font-style: bold;
+    text-align: center;
+}
+.mt-4{
+  text-align: center;
+}
+/* Button Css */
+.mkA1,.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8{
+    background-color: rgb(15, 174, 214);
+    border: solid black 1px;
+    color: white;
+    font-style: bold;
+    width: 180px;
+    border-radius: 2px;
+}
+
+/* Doctor Code Css */
+* {
+    box-sizing: border-box;
+    transition-delay: 300ms;
+  }
+  
+  .column {
+    float: left;
+    width:33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    /* width:100%; */
+  }
+
+  /* Doctor Heading */
+.hd2{
+  font-size: 50px;
+  font-style: bold;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.hc1{
+  margin-top: 50px;
+  font-size: 50px;
+  font-style: bold;
+  text-align: center;
+}
+.hd2_1,.hd2_2,.hd2_3{
+    font-size: 30px;
+    font-style: bold;
+    text-align: center;
+}
+
+.hd3_1,.hd3_2,.hd3_3{
+  font-size: 20px;
+  font-style: bold;
+  text-align: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#contact{
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 600px;
+}
+
+/* FORM CSS */
+* {
+  box-sizing: border-box;
+}
+nav{
+  float: right;
+  padding-left: 20px;
+  background-color: rgba(221, 221, 221, 0.196);
+}
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+   
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.fixednav{
+  position: fixed; 
+  width: 100%;
+  background-color: rgba(221, 221, 221, 0.333);
+}
+.navbar{
+  background-color: rgba(255, 255, 255, 0);
+width: 70%;
+padding-left: 45%;
+
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+.pico{
+  z-index:-5
+}
+
+/* footer css */
+
+.fa {
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.footdiv{
+  align-content: center;
+  padding-top: 80px;
+  padding-left: 40%;
+  align-self: center;
+}
+.footdiv2{
+  padding-left: 10%;
+  padding-top: 20px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+
+
+.separator{
+  width: 1200px;
+  margin: auto;
+}

@@ -1,0 +1,24 @@
+.form{
+    padding: 50px;
+    border-radius: 3%;
+    background-color:rgba(175, 159, 159, 0.918);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+body {
+     background-image: url('banner.jpg');
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+div{
+    padding-left: 35%;
+    padding-top: 10%;
+    width: 30%;
+    align-content: center;
+}
+
+.form #textbox{
+    position: fixed;
+}
